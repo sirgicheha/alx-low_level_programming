@@ -1,0 +1,1 @@
+pointers, rrays and strings
