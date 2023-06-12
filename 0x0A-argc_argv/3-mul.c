@@ -5,7 +5,7 @@
  * _atoi - converts a string to an interger
  * @s: string to be converted
  *
- * REturned: the int converted from the string
+ * Return: the nt converted from the string
  */
 int _atoi(char *s)
 {
@@ -49,9 +49,9 @@ int _atoi(char *s)
 /**
  * main - multiplies two numbers
  * @argc: number of arguments
- * @argv: array of arguments
+ * @argv:  array of arguments
  *
- * Return: 0 (Success), 1 (Error)
+ * Return: 0 (Success), 1(Error)
  */
 int main(int argc, char *argv[])
 {
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num1 = _atoi(arg[1]);
+	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 	result = num1 * num2;
 
@@ -71,4 +71,3 @@ int main(int argc, char *argv[])
 
 	return (0);
 }
-
